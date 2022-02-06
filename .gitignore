@@ -1,0 +1,7 @@
+/Temp
+/Library
+/obj
+/Packages
+*.sln
+*.csproj
+*.apk
