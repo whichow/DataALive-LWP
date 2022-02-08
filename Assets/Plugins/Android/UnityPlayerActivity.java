@@ -50,6 +50,7 @@ public class UnityPlayerActivity extends Activity implements SurfaceHolder.Callb
 
         App.mUnityPlayer.displayChanged(0, holder.getSurface());
         App.mUnityPlayer.resume();
+        App.isWallpaper = false;
     }
 
     @Override
@@ -98,6 +99,7 @@ public class UnityPlayerActivity extends Activity implements SurfaceHolder.Callb
             App.mUnityPlayer.pause();
             App.mUnityPlayer.displayChanged(0, view.getHolder().getSurface());
             App.mUnityPlayer.resume();
+            App.isWallpaper = false;
         }
     }
 

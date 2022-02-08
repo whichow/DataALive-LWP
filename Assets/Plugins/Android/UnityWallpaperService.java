@@ -51,6 +51,7 @@ public class UnityWallpaperService extends WallpaperService
                     App.mUnityPlayer.pause();
                     App.mUnityPlayer.displayChanged(0, getSurfaceHolder().getSurface());
                     App.mUnityPlayer.resume();
+                    App.isWallpaper = true;
             }
             else
             {

@@ -11,6 +11,7 @@ public class App extends Application
 
     public static boolean PS;
     public static boolean ACT = false;
+    public static boolean isWallpaper = false;
 
     public static UnityPlayer mUnityPlayer;
 
