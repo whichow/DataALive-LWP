@@ -15,9 +15,11 @@ public class UIControl : MonoBehaviour
 #endif
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnApplicationFocus(bool hasFocus)
     {
-        
+        if(appClass.GetStatic<bool>("isWallpaper"))
+        {
+            
+        }
     }
 }
