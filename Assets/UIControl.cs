@@ -23,6 +23,8 @@ public class UIControl : MonoBehaviour
         {
             UI.SetActive(true);
         }
+#else
+        UI.SetActive(true);
 #endif
     }
 }

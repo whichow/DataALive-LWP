@@ -2519,7 +2519,6 @@ GameObject:
   - component: {fileID: 114410961}
   - component: {fileID: 114410960}
   - component: {fileID: 114410959}
-  - component: {fileID: 114410958}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2547,18 +2546,6 @@ RectTransform:
   m_AnchoredPosition: {x: 120, y: 259}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &114410958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114410956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a89a9d48ab408e84a9a7ee29071b2bce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114410959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2599,7 +2586,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114410958}
+      - m_Target: {fileID: 1094673181}
         m_MethodName: SetAsWallpaper
         m_Mode: 1
         m_Arguments:
@@ -19807,6 +19794,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1094673178}
   - component: {fileID: 1094673179}
+  - component: {fileID: 1094673181}
+  - component: {fileID: 1094673180}
   m_Layer: 0
   m_Name: Live2DModelManager
   m_TagString: Untagged
@@ -20011,6 +20000,35 @@ MonoBehaviour:
   - {fileID: 1526724576}
   - {fileID: 1712585508}
   - {fileID: 871898403}
+--- !u!114 &1094673180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094673177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898c1efdb1aa6a84182cc84b02304d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roles:
+  - {fileID: 248153424}
+  - {fileID: 1153611233}
+  - {fileID: 806097853}
+  - {fileID: 1942417865}
+--- !u!114 &1094673181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094673177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89a9d48ab408e84a9a7ee29071b2bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1124841149
 Mesh:
   m_ObjectHideFlags: 0
@@ -24105,7 +24123,6 @@ GameObject:
   - component: {fileID: 1452206444}
   - component: {fileID: 1452206443}
   - component: {fileID: 1452206442}
-  - component: {fileID: 1452206441}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -24133,23 +24150,6 @@ RectTransform:
   m_AnchoredPosition: {x: 120.00001, y: 193.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1452206441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452206439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 898c1efdb1aa6a84182cc84b02304d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roles:
-  - {fileID: 248153424}
-  - {fileID: 1153611233}
-  - {fileID: 806097853}
-  - {fileID: 1942417865}
 --- !u!114 &1452206442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24190,7 +24190,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452206441}
+      - m_Target: {fileID: 1094673180}
         m_MethodName: SwitchRandomRole
         m_Mode: 1
         m_Arguments:
