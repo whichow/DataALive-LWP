@@ -8,17 +8,13 @@ public class UIControl : MonoBehaviour
     private AndroidJavaClass appClass;
     private string app = "ulw.ulw.ulw.App";
 
-    // Start is called before the first frame update
-    void Start()
-    {
-#if UNITY_ANDROID && !UNITY_EDITOR
-        appClass = new AndroidJavaClass(app);
-#endif
-    }
-
     void OnApplicationFocus(bool hasFocus)
     {
 #if UNITY_ANDROID && !UNITY_EDITOR
+        if(appClass == null)
+        {
+            appClass = new AndroidJavaClass(app);
+        }
         if(appClass.GetStatic<bool>("isWallpaper"))
         {
             UI.SetActive(false);
@@ -27,8 +23,6 @@ public class UIControl : MonoBehaviour
         {
             UI.SetActive(true);
         }
-#else
-        UI.SetActive(true);
 #endif
     }
 }
