@@ -158,7 +158,14 @@ public class UnityPlayerActivity extends Activity implements SurfaceHolder.Callb
 
     // Pass any events not handled by (unfocused) views straight to UnityPlayer
     @Override public boolean onKeyUp(int keyCode, KeyEvent event)     { return App.mUnityPlayer.injectEvent(event); }
-    @Override public boolean onKeyDown(int keyCode, KeyEvent event)   { return App.mUnityPlayer.injectEvent(event); }
+    @Override public boolean onKeyDown(int keyCode, KeyEvent event)   {
+        switch(keyCode)
+        {
+            case KeyEvent.KEYCODE_BACK:
+                moveTaskToBack(true);
+        }
+        return App.mUnityPlayer.injectEvent(event);
+    }
     @Override public boolean onTouchEvent(MotionEvent event)          { return App.mUnityPlayer.injectEvent(event); }
     /*API12*/ public boolean onGenericMotionEvent(MotionEvent event)  { return App.mUnityPlayer.injectEvent(event); }
 
