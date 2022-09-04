@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SetWallpaperButton : MonoBehaviour
+public class WallpaperManager : MonoBehaviour
 {
     private AndroidJavaClass activityClass;
     private AndroidJavaClass wrapperClass;
@@ -25,7 +25,7 @@ public class SetWallpaperButton : MonoBehaviour
         StartWallpaperService();
     }
 
-    public void StartWallpaperService()
+    private void StartWallpaperService()
     {
 #if UNITY_ANDROID && !UNITY_EDITOR
         activityClass.CallStatic("StartService");

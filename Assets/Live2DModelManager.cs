@@ -5,15 +5,32 @@ using UnityEngine;
 public class Live2DModelManager : MonoBehaviour
 {
     public GameObject[] models;
-    
-    // Start is called before the first frame update
+    public bool random;
+
+    private int index;
+
     void Start()
     {
-        foreach(var model in models)
+        models[index].SetActive(true);
+        if(random)
         {
-            model.SetActive(false);
+            SwitchModel();
         }
-        StartCoroutine(ShowModels());
+    }
+
+    public void SwitchModel()
+    {
+        models[index].SetActive(false);
+        if(random)
+        {
+            index = Random.Range(0, models.Length);
+        }
+        else
+        {
+            if(++index >= models.Length)
+                index = 0;
+        }
+        models[index].SetActive(true);
     }
 
     IEnumerator ShowModels()
@@ -33,11 +50,5 @@ public class Live2DModelManager : MonoBehaviour
             i++;
             yield return new WaitForSeconds(3f);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

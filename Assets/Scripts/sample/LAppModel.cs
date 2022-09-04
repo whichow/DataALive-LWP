@@ -327,6 +327,7 @@ public class LAppModel :L2DBaseModel
     public void StartRandomMotion(string name, int priority)
     {
         int max = modelSetting.GetMotionNum(name);
+        if(max == 0) return;
         int no = (int)(rand.NextDouble() * max);
         StartMotion(name, no, priority);
     }
@@ -449,6 +450,7 @@ public class LAppModel :L2DBaseModel
      */
     public void SetRandomExpression()
     {
+        if(expressions.Count == 0) return;
         int no = (int)(rand.NextDouble() * expressions.Count);
 
         string[] keys = new string[expressions.Count];

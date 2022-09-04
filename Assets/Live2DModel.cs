@@ -5,8 +5,6 @@ using UnityEngine;
 public class Live2DModel : MonoBehaviour
 {
     public string[] motionNames;
-    public string idleMotion;
-    public string idleExpression;
     private LAppModel model;
 
     // Start is called before the first frame update
@@ -18,26 +16,12 @@ public class Live2DModel : MonoBehaviour
 
     void OnMouseDown()
     {
-        while(true)
+        if(model.IsFinished())
         {
             int index = Random.Range(0, motionNames.Length);
             string motionName = motionNames[index];
-            if(motionName != idleMotion)
-            {
-                model.StartMotion(motionName, 0, 2);
-                // model.SetRandomExpression();
-                break;
-            }
+            model.StartRandomMotion(motionName, 1);
+            model.SetRandomExpression();
         }
     }
-
-    // Update is called once per frame
-    // void Update()
-    // {
-    //     if(model.IsFinished())
-    //     {
-    //         model.StartMotion(idleMotion, 0, 1);
-    //         // model.SetExpression(idleExpression);
-    //     }
-    // }
 }

@@ -526,7 +526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 77
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &29785768
 GameObject:
@@ -730,7 +730,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 86
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &36791707
 Material:
@@ -785,8 +785,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 114410957}
   - {fileID: 1452206440}
+  - {fileID: 114410957}
   m_Father: {fileID: 1818795924}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -809,8 +809,9 @@ GameObject:
   - component: {fileID: 61267805}
   - component: {fileID: 61267804}
   - component: {fileID: 61267803}
+  - component: {fileID: 61267809}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10512
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -997,8 +998,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61267809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61267802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_3
+  - id_normal_10
+  - id_normal_5
+  - id_normal_4
+  - id_normal_12
+  - id_normal_11
+  - id_normal_1
+  - id_normal_8
+  - id_normal_2
+  - id_normal_7
+  - id_normal_9
+  - id_normal_6
+  - id_normal_13
 --- !u!43 &72353310
 Mesh:
   m_ObjectHideFlags: 0
@@ -1199,8 +1226,9 @@ GameObject:
   - component: {fileID: 84073273}
   - component: {fileID: 84073272}
   - component: {fileID: 84073271}
+  - component: {fileID: 84073277}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10406
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1387,8 +1415,51 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84073277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84073270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_favor3
+  - id_pose_2
+  - id_pose_8
+  - id_favor1_2
+  - id_pose_11
+  - id_favor2_2
+  - id_pose_12
+  - id_favor3_1
+  - id_pose_4
+  - id_pose_5
+  - id_pose_7
+  - id_normal_4
+  - id_favor3_2
+  - id_pose_3
+  - id_normal_3
+  - id_favor1_4
+  - id_normal_6
+  - id_favor2_1
+  - id_normal_1
+  - id_favor2
+  - id_favor1
+  - id_pose_1
+  - id_pose_9
+  - id_favor3_4
+  - id_normal_12
+  - id_pose_10
+  - id_favor2_4
+  - id_favor3_3
+  - id_normal_9
+  - id_favor1_3
 --- !u!1 &86224438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,8 +1474,9 @@ GameObject:
   - component: {fileID: 86224441}
   - component: {fileID: 86224440}
   - component: {fileID: 86224439}
+  - component: {fileID: 86224445}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10304
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1591,8 +1663,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &86224445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86224438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_pose_5
+  - id_pose_3
+  - id_pose_6
+  - id_normal_13
+  - id_pose_2
+  - id_normal_1
+  - id_normal_2
+  - id_normal_12
+  - id_pose_1
+  - id_normal_4
+  - id_pose_4
+  - id_normal_9
 --- !u!43 &91445740
 Mesh:
   m_ObjectHideFlags: 0
@@ -1953,8 +2051,10 @@ GameObject:
   - component: {fileID: 97142049}
   - component: {fileID: 97142048}
   - component: {fileID: 97142047}
+  - component: {fileID: 97142054}
+  - component: {fileID: 97142053}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10218
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2141,8 +2241,47 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &97142053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97142046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_normal_7
+  - id_normal_11
+  - id_normal_2
+  - id_normal_5
+  - id_normal_1
+  - id_normal_10
+  - id_normal_3
+  - id_normal_13
+  - id_normal_9
+  - id_normal_8
+  - id_normal_12
+  - id_normal_4
+--- !u!114 &97142054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97142046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames: []
 --- !u!1 &100645199
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,8 +2296,9 @@ GameObject:
   - component: {fileID: 100645202}
   - component: {fileID: 100645201}
   - component: {fileID: 100645200}
+  - component: {fileID: 100645206}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10206
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2345,8 +2485,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100645206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100645199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_pose_4
+  - id_normal_2
+  - id_normal_4
+  - id_normal_1
+  - id_normal_9
+  - id_normal_13
+  - id_pose_5
+  - id_pose_2
+  - id_normal_6
+  - id_pose_1
+  - id_pose_3
 --- !u!43 &109201136
 Mesh:
   m_ObjectHideFlags: 0
@@ -2539,7 +2704,7 @@ RectTransform:
   m_Children:
   - {fileID: 466892604}
   m_Father: {fileID: 55846444}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -2597,8 +2762,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114410960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2617,8 +2780,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: de45725fa51e22a498d3b1fea704611c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -3273,8 +3434,9 @@ GameObject:
   - component: {fileID: 213707244}
   - component: {fileID: 213707243}
   - component: {fileID: 213707242}
+  - component: {fileID: 213707248}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10506
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3461,8 +3623,42 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213707248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213707241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_pose_5
+  - id_pose_10
+  - id_pose_12
+  - id_pose_6
+  - id_pose_4
+  - id_pose_14
+  - id_normal_12
+  - id_pose_11
+  - id_pose_2
+  - id_normal_9
+  - id_pose_13
+  - id_normal_13
+  - id_pose_9
+  - id_pose_8
+  - id_pose_7
+  - id_pose_3
+  - id_pose_1
+  - id_normal_4
+  - id_normal_1
+  - id_normal_2
+  - id_normal_6
 --- !u!43 &219258846
 Mesh:
   m_ObjectHideFlags: 0
@@ -3663,8 +3859,9 @@ GameObject:
   - component: {fileID: 230277175}
   - component: {fileID: 230277174}
   - component: {fileID: 230277173}
+  - component: {fileID: 230277179}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11307
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3851,8 +4048,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 70
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &230277179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230277172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_9
+  - id_normal_6
+  - id_normal_11
+  - id_normal_8
+  - id_normal_1
+  - id_normal_7
+  - id_normal_5
+  - id_normal_2
+  - id_normal_12
+  - id_normal_3
+  - id_normal_13
+  - id_normal_4
 --- !u!43 &230452122
 Mesh:
   m_ObjectHideFlags: 0
@@ -4429,8 +4652,6 @@ MonoBehaviour:
   - Main_01_0041
   - Main_01_0061
   - Main_01_0068
-  idleMotion: id_idle
-  idleExpression: 
 --- !u!43 &258916134
 Mesh:
   m_ObjectHideFlags: 0
@@ -4683,8 +4904,9 @@ GameObject:
   - component: {fileID: 282615093}
   - component: {fileID: 282615092}
   - component: {fileID: 282615091}
+  - component: {fileID: 282615097}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10105
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4812,7 +5034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 190d918d38714b446ad8b55640d0032a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: Live2D_Models/bust_10105/bust_10105.model.json
+  path: Live2D_Models/bust_10105_new/bust_10105_new.model.json
   sceneNo: 0
 --- !u!33 &282615094
 MeshFilter:
@@ -4873,6 +5095,32 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &282615097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282615090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_4
+  - id_normal_5
+  - id_normal_11
+  - id_normal_10
+  - id_normal_9
+  - id_normal_8
+  - id_normal_2
+  - id_normal_1
+  - id_normal_12
+  - id_normal_13
+  - id_normal_3
+  - id_normal_7
+  - id_normal_6
 --- !u!1 &288071454
 GameObject:
   m_ObjectHideFlags: 0
@@ -5075,7 +5323,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 81
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &289526747
 GameObject:
@@ -5093,7 +5341,7 @@ GameObject:
   - component: {fileID: 289526748}
   - component: {fileID: 289526754}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10408
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5280,7 +5528,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &289526754
 MonoBehaviour:
@@ -5294,9 +5542,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motionNames: []
-  idleMotion: 
-  idleExpression: 
+  motionNames:
+  - id_normal_13
+  - id_normal_6
+  - id_normal_5
+  - id_normal_4
+  - id_normal_7
+  - id_normal_11
+  - id_normal_2
+  - id_normal_12
+  - id_normal_1
+  - id_normal_8
+  - id_normal_9
+  - id_normal_10
+  - id_normal_3
 --- !u!43 &290558865
 Mesh:
   m_ObjectHideFlags: 0
@@ -5657,8 +5916,9 @@ GameObject:
   - component: {fileID: 328235156}
   - component: {fileID: 328235155}
   - component: {fileID: 328235154}
+  - component: {fileID: 328235160}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11201
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5845,8 +6105,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 63
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &328235160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328235153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_8
+  - id_normal_12
+  - id_normal_6
+  - id_normal_3
+  - id_normal_5
+  - id_normal_7
+  - id_normal_4
+  - id_normal_11
+  - id_normal_1
+  - id_normal_2
+  - id_normal_13
+  - id_normal_9
+  - id_normal_10
 --- !u!1 &332225483
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,7 +6335,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 79
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &333336497
 GameObject:
@@ -6065,8 +6351,9 @@ GameObject:
   - component: {fileID: 333336500}
   - component: {fileID: 333336499}
   - component: {fileID: 333336498}
+  - component: {fileID: 333336504}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10805
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6253,8 +6540,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 53
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &333336504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333336497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_8
+  - id_normal_10
+  - id_normal_4
+  - id_normal_3
+  - id_normal_11
+  - id_normal_9
+  - id_normal_5
+  - id_normal_7
+  - id_normal_1
+  - id_normal_12
+  - id_normal_2
+  - id_normal_6
 --- !u!43 &333348988
 Mesh:
   m_ObjectHideFlags: 0
@@ -6429,8 +6742,9 @@ GameObject:
   - component: {fileID: 352921913}
   - component: {fileID: 352921912}
   - component: {fileID: 352921911}
+  - component: {fileID: 352921917}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10412
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6617,8 +6931,35 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &352921917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352921910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_11
+  - id_normal_13
+  - id_normal_1
+  - id_normal_3
+  - id_normal_6
+  - id_normal_14
+  - id_normal_2
+  - id_normal_5
+  - id_normal_10
+  - id_normal_8
+  - id_normal_12
+  - id_normal_9
+  - id_normal_4
+  - id_normal_7
 --- !u!43 &376128907
 Mesh:
   m_ObjectHideFlags: 0
@@ -6819,8 +7160,9 @@ GameObject:
   - component: {fileID: 384957883}
   - component: {fileID: 384957882}
   - component: {fileID: 384957881}
+  - component: {fileID: 384957887}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7007,8 +7349,29 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 59
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384957887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384957880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_2
+  - id_normal_6
+  - idle
+  - id_normal_1
+  - id_normal_4
+  - id_normal_12
+  - id_normal_9
+  - id_normal_13
 --- !u!1 &385452647
 GameObject:
   m_ObjectHideFlags: 0
@@ -7211,7 +7574,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 85
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &393735389
 Mesh:
@@ -7575,7 +7938,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 76
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &401402749
 Material:
@@ -8510,8 +8873,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 46
@@ -8749,8 +9110,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 46
@@ -9319,8 +9678,9 @@ GameObject:
   - component: {fileID: 531702554}
   - component: {fileID: 531702553}
   - component: {fileID: 531702552}
+  - component: {fileID: 531702558}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10305
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9507,8 +9867,35 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &531702558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531702551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_9
+  - id_normal_8
+  - id_normal_6
+  - id_normal_2
+  - id_normal_3
+  - id_normal_11
+  - id_normal_13
+  - id_normal_5
+  - id_normal_shouji
+  - id_normal_7
+  - id_normal_12
+  - id_normal_1
+  - id_normal_4
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -9765,8 +10152,9 @@ GameObject:
   - component: {fileID: 546881332}
   - component: {fileID: 546881331}
   - component: {fileID: 546881330}
+  - component: {fileID: 546881336}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10118
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9955,6 +10343,32 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &546881336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546881329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_4
+  - id_normal_12
+  - id_normal_9
+  - id_normal_10
+  - id_normal_13
+  - id_normal_11
+  - id_normal_1
+  - id_normal_3
+  - id_normal_5
+  - id_normal_8
+  - id_normal_6
+  - id_normal_7
+  - id_normal_2
 --- !u!21 &561236356
 Material:
   serializedVersion: 6
@@ -10713,8 +11127,9 @@ GameObject:
   - component: {fileID: 630082616}
   - component: {fileID: 630082615}
   - component: {fileID: 630082614}
+  - component: {fileID: 630082620}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11208
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10901,8 +11316,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 66
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &630082620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630082613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_1
+  - id_normal_5
+  - id_normal_8
+  - id_normal_2
+  - id_normal_13
+  - id_normal_11
+  - id_normal_12
+  - id_normal_6
+  - id_normal_3
+  - id_normal_9
+  - id_normal_7
+  - id_normal_4
+  - id_normal_10
 --- !u!21 &631677947
 Material:
   serializedVersion: 6
@@ -11289,8 +11730,9 @@ GameObject:
   - component: {fileID: 667175803}
   - component: {fileID: 667175802}
   - component: {fileID: 667175801}
+  - component: {fileID: 667175807}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11477,8 +11919,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 62
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &667175807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667175800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_3
+  - id_normal_8
+  - id_normal_7
+  - id_normal_1
+  - id_normal_2
+  - id_normal_6
+  - id_normal_12
+  - id_normal_13
+  - id_normal_9
+  - id_normal_10
+  - id_normal_5
+  - id_normal_4
+  - id_normal_11
 --- !u!21 &683573299
 Material:
   serializedVersion: 6
@@ -11893,7 +12361,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 44
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &716134025
 GameObject:
@@ -11909,8 +12377,9 @@ GameObject:
   - component: {fileID: 716134028}
   - component: {fileID: 716134027}
   - component: {fileID: 716134026}
+  - component: {fileID: 716134032}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10214
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12097,8 +12566,36 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &716134032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716134025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_14
+  - id_normal_2
+  - id_normal_7
+  - id_normal_15
+  - id_normal_13
+  - id_normal_12
+  - id_normal_11
+  - id_normal_1
+  - id_normal_3
+  - id_normal_9
+  - id_normal_5
+  - id_normal_8
+  - id_normal_4
+  - id_normal_6
+  - id_normal_10
 --- !u!43 &725507599
 Mesh:
   m_ObjectHideFlags: 0
@@ -12621,7 +13118,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 93
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &734402903
 Material:
@@ -12823,8 +13320,9 @@ GameObject:
   - component: {fileID: 738576184}
   - component: {fileID: 738576183}
   - component: {fileID: 738576182}
+  - component: {fileID: 738576188}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10704
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13011,8 +13509,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 47
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738576188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738576181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_6
+  - id_normal_11
+  - id_normal_7
+  - id_normal_3
+  - id_normal_13
+  - id_normal_12
+  - id_normal_4
+  - id_normal_1
+  - id_normal_5
+  - id_normal_2
+  - id_normal_9
+  - id_normal_8
 --- !u!21 &755030784
 Material:
   serializedVersion: 6
@@ -13427,7 +13951,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 80
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &770181343
 Mesh:
@@ -13763,8 +14287,9 @@ GameObject:
   - component: {fileID: 791313803}
   - component: {fileID: 791313802}
   - component: {fileID: 791313801}
+  - component: {fileID: 791313807}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10701
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13951,8 +14476,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 45
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791313807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791313800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_4
+  - id_normal_2
+  - id_normal_12
+  - id_normal_6
+  - id_normal_1
+  - id_normal_9
 --- !u!1 &806097853
 GameObject:
   m_ObjectHideFlags: 0
@@ -14204,8 +14749,6 @@ MonoBehaviour:
   - Main_03_0063
   - Main_03_0073
   - Main_03_0074
-  idleMotion: 
-  idleExpression: 
 --- !u!43 &810003766
 Mesh:
   m_ObjectHideFlags: 0
@@ -14728,7 +15271,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 84
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &825414553
 GameObject:
@@ -14744,8 +15287,9 @@ GameObject:
   - component: {fileID: 825414556}
   - component: {fileID: 825414555}
   - component: {fileID: 825414554}
+  - component: {fileID: 825414560}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10410
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14932,8 +15476,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &825414560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825414553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_5
+  - id_normal_6
+  - id_normal_2
+  - id_normal_11
+  - id_normal_4
+  - id_normal_3
+  - id_normal_7
+  - id_normal_12
+  - id_normal_8
+  - id_normal_13
+  - id_normal_9
+  - id_normal_1
+  - id_normal_10
 --- !u!43 &826672519
 Mesh:
   m_ObjectHideFlags: 0
@@ -15296,7 +15866,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 94
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &838083912
 Mesh:
@@ -15686,7 +16256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 82
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &848893279
 Material:
@@ -16102,7 +16672,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 88
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871898403
 GameObject:
@@ -16118,8 +16688,9 @@ GameObject:
   - component: {fileID: 871898406}
   - component: {fileID: 871898405}
   - component: {fileID: 871898404}
+  - component: {fileID: 871898410}
   m_Layer: 0
-  m_Name: end
+  m_Name: 113116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16306,8 +16877,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 73
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871898410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871898403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_normal_11
+  - id_normal_5
+  - id_normal_13
+  - id_normal_7
+  - id_normal_10
+  - id_normal_1
+  - id_normal_3
+  - id_normal_4
+  - id_normal_8
+  - id_normal_6
+  - id_normal_9
+  - id_normal_2
 --- !u!1 &879927928
 GameObject:
   m_ObjectHideFlags: 0
@@ -16322,8 +16919,9 @@ GameObject:
   - component: {fileID: 879927931}
   - component: {fileID: 879927930}
   - component: {fileID: 879927929}
+  - component: {fileID: 879927935}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10306
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16510,8 +17108,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &879927935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879927928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_8
+  - id_normal_13
+  - id_normal_11
+  - id_normal_3
+  - id_normal_10
+  - id_normal_12
+  - id_normal_9
+  - id_normal_2
+  - id_normal_7
+  - id_normal_6
+  - id_normal_1
+  - id_normal_5
+  - id_normal_4
 --- !u!43 &880234375
 Mesh:
   m_ObjectHideFlags: 0
@@ -16846,8 +17470,9 @@ GameObject:
   - component: {fileID: 894262135}
   - component: {fileID: 894262134}
   - component: {fileID: 894262133}
+  - component: {fileID: 894262139}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10404
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17034,8 +17659,51 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &894262139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894262132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_favor3
+  - id_pose_2
+  - id_pose_8
+  - id_favor1_2
+  - id_pose_11
+  - id_favor2_2
+  - id_pose_12
+  - id_favor3_1
+  - id_pose_4
+  - id_pose_5
+  - id_pose_7
+  - id_normal_4
+  - id_favor3_2
+  - id_pose_3
+  - id_normal_3
+  - id_favor1_4
+  - id_normal_6
+  - id_favor2_1
+  - id_normal_1
+  - id_favor2
+  - id_favor1
+  - id_pose_1
+  - id_pose_9
+  - id_favor3_4
+  - id_normal_12
+  - id_pose_10
+  - id_favor2_4
+  - id_favor3_3
+  - id_normal_9
+  - id_favor1_3
 --- !u!1 &894283494
 GameObject:
   m_ObjectHideFlags: 0
@@ -17582,6 +18250,236 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &913914712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913914713}
+  - component: {fileID: 913914719}
+  - component: {fileID: 913914718}
+  - component: {fileID: 913914717}
+  - component: {fileID: 913914716}
+  - component: {fileID: 913914715}
+  - component: {fileID: 913914714}
+  m_Layer: 0
+  m_Name: 10205
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &913914713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.87, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1094673178}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &913914714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_pose_4
+  - id_normal_2
+  - id_normal_4
+  - id_normal_1
+  - id_normal_9
+  - id_normal_13
+  - id_pose_5
+  - id_pose_2
+  - id_normal_6
+  - id_pose_1
+  - id_pose_3
+--- !u!82 &913914715
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!64 &913914716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 22943076}
+--- !u!114 &913914717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190d918d38714b446ad8b55640d0032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: Live2D_Models/bust_10205/bust_10205.model.json
+  sceneNo: 0
+--- !u!33 &913914718
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_Mesh: {fileID: 22943076}
+--- !u!23 &913914719
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913914712}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 1286013133}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!21 &917306471
 Material:
   serializedVersion: 6
@@ -17648,8 +18546,9 @@ GameObject:
   - component: {fileID: 943146199}
   - component: {fileID: 943146198}
   - component: {fileID: 943146197}
+  - component: {fileID: 943146203}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10801
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17836,8 +18735,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 50
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943146203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943146196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_8
+  - id_normal_10
+  - id_normal_4
+  - id_normal_3
+  - id_normal_11
+  - id_normal_9
+  - id_normal_5
+  - id_normal_7
+  - id_normal_1
+  - id_normal_12
+  - id_normal_2
+  - id_normal_6
 --- !u!21 &943704884
 Material:
   serializedVersion: 6
@@ -18064,8 +18989,9 @@ GameObject:
   - component: {fileID: 971109797}
   - component: {fileID: 971109796}
   - component: {fileID: 971109795}
+  - component: {fileID: 971109801}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11206
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18252,8 +19178,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 65
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971109801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971109794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_normal_5
+  - id_normal_7
+  - id_normal_13
+  - id_normal_10
+  - id_normal_8
+  - id_normal_9
+  - id_normal_12
+  - id_normal_3
+  - id_normal_11
+  - id_normal_2
+  - id_normal_4
+  - id_normal_1
 --- !u!1 &971294648
 GameObject:
   m_ObjectHideFlags: 0
@@ -18268,8 +19220,9 @@ GameObject:
   - component: {fileID: 971294651}
   - component: {fileID: 971294650}
   - component: {fileID: 971294649}
+  - component: {fileID: 971294655}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18456,8 +19409,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 61
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971294655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971294648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_3
+  - id_normal_4
+  - id_normal_10
+  - id_normal_12
+  - id_normal_6
+  - id_normal_11
+  - id_normal_9
+  - id_normal_1
+  - id_normal_2
+  - id_normal_5
+  - id_normal_13
+  - id_normal_7
+  - id_normal_8
 --- !u!43 &978406749
 Mesh:
   m_ObjectHideFlags: 0
@@ -19006,7 +19985,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 92
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1013991099
 GameObject:
@@ -19022,8 +20001,9 @@ GameObject:
   - component: {fileID: 1013991102}
   - component: {fileID: 1013991101}
   - component: {fileID: 1013991100}
+  - component: {fileID: 1013991106}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10425
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19210,8 +20190,35 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013991106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013991099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_14
+  - id_normal_7
+  - id_normal_11
+  - id_normal_10
+  - id_normal_6
+  - id_normal_8
+  - id_normal_3
+  - id_normal_1
+  - id_normal_9
+  - id_normal_2
+  - id_normal_5
+  - id_normal_12
+  - id_normal_4
 --- !u!21 &1017837283
 Material:
   serializedVersion: 6
@@ -19518,7 +20525,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 91
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1053554196
 Material:
@@ -19795,7 +20802,6 @@ GameObject:
   - component: {fileID: 1094673178}
   - component: {fileID: 1094673179}
   - component: {fileID: 1094673181}
-  - component: {fileID: 1094673180}
   m_Layer: 0
   m_Name: Live2DModelManager
   m_TagString: Untagged
@@ -19825,6 +20831,7 @@ Transform:
   - {fileID: 1519197549}
   - {fileID: 1993470781}
   - {fileID: 1644461256}
+  - {fileID: 913914713}
   - {fileID: 100645205}
   - {fileID: 1255229650}
   - {fileID: 1462914319}
@@ -19920,7 +20927,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094673177}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c1bad99e93fbe4438efcf09d5673785, type: 3}
   m_Name: 
@@ -19937,6 +20944,7 @@ MonoBehaviour:
   - {fileID: 1519197543}
   - {fileID: 1993470775}
   - {fileID: 1644461250}
+  - {fileID: 913914712}
   - {fileID: 100645199}
   - {fileID: 1255229644}
   - {fileID: 1462914313}
@@ -19970,7 +20978,6 @@ MonoBehaviour:
   - {fileID: 1746939706}
   - {fileID: 1722770163}
   - {fileID: 1860971208}
-  - {fileID: 709217490}
   - {fileID: 791313800}
   - {fileID: 2075398532}
   - {fileID: 738576181}
@@ -19981,8 +20988,6 @@ MonoBehaviour:
   - {fileID: 1766642533}
   - {fileID: 333336497}
   - {fileID: 1926239317}
-  - {fileID: 1857517962}
-  - {fileID: 1175761700}
   - {fileID: 1931584423}
   - {fileID: 1837285851}
   - {fileID: 384957880}
@@ -20000,23 +21005,7 @@ MonoBehaviour:
   - {fileID: 1526724576}
   - {fileID: 1712585508}
   - {fileID: 871898403}
---- !u!114 &1094673180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094673177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 898c1efdb1aa6a84182cc84b02304d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roles:
-  - {fileID: 248153424}
-  - {fileID: 1153611233}
-  - {fileID: 806097853}
-  - {fileID: 1942417865}
+  random: 0
 --- !u!114 &1094673181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20203,8 +21192,9 @@ GameObject:
   - component: {fileID: 1126040613}
   - component: {fileID: 1126040612}
   - component: {fileID: 1126040611}
+  - component: {fileID: 1126040617}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11303
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20391,8 +21381,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 68
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1126040617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126040610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_2
+  - id_normal_13
+  - id_normal_3
+  - id_normal_5
+  - id_normal_7
+  - id_normal_9
+  - id_normal_12
+  - id_normal_4
+  - id_normal_1
+  - id_normal_8
+  - id_normal_6
+  - id_normal_11
 --- !u!1 &1126654523
 GameObject:
   m_ObjectHideFlags: 0
@@ -20407,8 +21423,9 @@ GameObject:
   - component: {fileID: 1126654526}
   - component: {fileID: 1126654525}
   - component: {fileID: 1126654524}
+  - component: {fileID: 1126654530}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20595,8 +21612,29 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 60
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1126654530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126654523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_4
+  - id_normal_1
+  - id_normal_13
+  - id_normal_6
+  - id_normal_12
+  - id_normal_9
+  - id_normal_2
+  - 
 --- !u!21 &1130290980
 Material:
   serializedVersion: 6
@@ -20903,8 +21941,6 @@ MonoBehaviour:
   - Main_01_0108
   - Main_01_0097
   - Main_02_0009
-  idleMotion: Main_baomianbao
-  idleExpression: 
 --- !u!43 &1160582626
 Mesh:
   m_ObjectHideFlags: 0
@@ -21267,7 +22303,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 56
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1191314621
 Material:
@@ -21495,8 +22531,9 @@ GameObject:
   - component: {fileID: 1227411287}
   - component: {fileID: 1227411286}
   - component: {fileID: 1227411285}
+  - component: {fileID: 1227411291}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11301
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21683,8 +22720,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227411291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227411284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_3
+  - id_normal_12
+  - id_normal_10
+  - id_normal_2
+  - id_normal_5
+  - id_normal_11
+  - id_normal_8
+  - id_normal_9
+  - id_normal_1
+  - id_normal_13
+  - id_normal_6
+  - id_normal_4
+  - id_normal_7
 --- !u!21 &1231685958
 Material:
   serializedVersion: 6
@@ -21939,7 +23002,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 78
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255229644
 GameObject:
@@ -21955,8 +23018,9 @@ GameObject:
   - component: {fileID: 1255229647}
   - component: {fileID: 1255229646}
   - component: {fileID: 1255229645}
+  - component: {fileID: 1255229651}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10207
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22143,8 +23207,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1255229651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255229644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_pose_4
+  - id_normal_2
+  - id_normal_4
+  - id_normal_1
+  - id_normal_9
+  - id_normal_13
+  - id_pose_5
+  - id_pose_2
+  - id_normal_6
+  - id_pose_1
+  - id_pose_3
 --- !u!43 &1267724443
 Mesh:
   m_ObjectHideFlags: 0
@@ -22719,7 +23808,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 95
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1296534704
 Material:
@@ -22839,8 +23928,9 @@ GameObject:
   - component: {fileID: 1340064283}
   - component: {fileID: 1340064282}
   - component: {fileID: 1340064281}
+  - component: {fileID: 1340064287}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10508
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23027,8 +24117,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340064287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340064280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_8
+  - id_normal_12
+  - id_normal_13
+  - id_normal_9
+  - id_normal_2
+  - id_normal_11
+  - id_normal_4
+  - id_normal_3
+  - id_normal_1
+  - id_normal_5
+  - id_normal_6
+  - id_normal_10
+  - id_normal_7
 --- !u!43 &1350273333
 Mesh:
   m_ObjectHideFlags: 0
@@ -23895,8 +25011,9 @@ GameObject:
   - component: {fileID: 1425507427}
   - component: {fileID: 1425507426}
   - component: {fileID: 1425507425}
+  - component: {fileID: 1425507431}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10705
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24083,8 +25200,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 48
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1425507431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425507424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_4
+  - id_normal_2
+  - id_normal_6
+  - id_normal_13
+  - id_normal_12
+  - id_normal_1
+  - id_normal_9
 --- !u!21 &1428523786
 Material:
   serializedVersion: 6
@@ -24124,7 +25261,7 @@ GameObject:
   - component: {fileID: 1452206443}
   - component: {fileID: 1452206442}
   m_Layer: 5
-  m_Name: SwitchRoleButton
+  m_Name: SwitchModelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24143,7 +25280,7 @@ RectTransform:
   m_Children:
   - {fileID: 480136958}
   m_Father: {fileID: 55846444}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -24190,8 +25327,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1094673180}
-        m_MethodName: SwitchRandomRole
+      - m_Target: {fileID: 1094673179}
+        m_MethodName: SwitchModel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24201,8 +25338,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1452206443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24221,8 +25356,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: de45725fa51e22a498d3b1fea704611c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -24280,8 +25413,9 @@ GameObject:
   - component: {fileID: 1462914316}
   - component: {fileID: 1462914315}
   - component: {fileID: 1462914314}
+  - component: {fileID: 1462914320}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10211
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24468,8 +25602,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1462914320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462914313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_8
+  - id_normal_13
+  - id_normal_11
+  - id_normal_3
+  - id_normal_10
+  - id_normal_12
+  - id_normal_9
+  - id_normal_2
+  - id_normal_7
+  - id_normal_6
+  - id_normal_1
+  - id_normal_5
+  - id_normal_4
 --- !u!21 &1464300659
 Material:
   serializedVersion: 6
@@ -24510,8 +25670,9 @@ GameObject:
   - component: {fileID: 1468264447}
   - component: {fileID: 1468264446}
   - component: {fileID: 1468264445}
+  - component: {fileID: 1468264451}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10301
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24698,8 +25859,71 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1468264451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468264444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_favor3_3
+  - Main_02_0003
+  - Main_02_0086
+  - Main_02_0068
+  - id_pose_2
+  - id_pose_4
+  - dialog_like
+  - Main_02_0032
+  - Main_02_0092
+  - Main_02_0058
+  - Main_02_0064
+  - id_normal_9
+  - Main_02_0055
+  - Main_02_0084
+  - Main_02_0029
+  - id_favor3
+  - id_favor3_4
+  - Main_02_0007
+  - id_favor2
+  - Main_02_0069
+  - Main_02_0030
+  - Main_02_0027
+  - id_favor1_4
+  - id_normal_6
+  - Main_02_0045
+  - Main_02_0040
+  - Main_02_0028
+  - Main_02_0071
+  - Main_02_0070
+  - Main_02_0085
+  - pose
+  - id_favor2_4
+  - Main_02_0087
+  - Main_02_0059
+  - id_normal_12
+  - Main_02_0090
+  - id_favor1_1
+  - Main_02_0002
+  - Main_02_0044
+  - Main_02_0008
+  - id_favor3_2
+  - Main_02_0005
+  - id_favor2_1
+  - id_favor1_2
+  - Main_02_0035
+  - Main_02_0091
+  - Main_02_0043
+  - Main_02_0060
+  - Main_02_0047
+  - Main_02_0093
 --- !u!43 &1483842153
 Mesh:
   m_ObjectHideFlags: 0
@@ -25222,7 +26446,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 75
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1519197543
 GameObject:
@@ -25238,8 +26462,9 @@ GameObject:
   - component: {fileID: 1519197546}
   - component: {fileID: 1519197545}
   - component: {fileID: 1519197544}
+  - component: {fileID: 1519197550}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10201
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25428,6 +26653,31 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1519197550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519197543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_pose_4
+  - id_normal_2
+  - id_normal_4
+  - id_normal_1
+  - id_normal_9
+  - id_normal_13
+  - id_pose_5
+  - id_pose_2
+  - id_normal_6
+  - id_pose_1
+  - id_pose_3
 --- !u!1 &1526724576
 GameObject:
   m_ObjectHideFlags: 0
@@ -25442,8 +26692,9 @@ GameObject:
   - component: {fileID: 1526724579}
   - component: {fileID: 1526724578}
   - component: {fileID: 1526724577}
+  - component: {fileID: 1526724583}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11309
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25630,8 +26881,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 71
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1526724583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526724576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_11
+  - id_normal_3
+  - id_normal_13
+  - id_normal_5
+  - id_normal_2
+  - id_normal_1
+  - id_normal_8
+  - id_normal_4
+  - id_normal_9
+  - id_normal_12
+  - id_normal_7
+  - id_normal_6
 --- !u!1 &1527864763
 GameObject:
   m_ObjectHideFlags: 0
@@ -25646,8 +26923,9 @@ GameObject:
   - component: {fileID: 1527864766}
   - component: {fileID: 1527864765}
   - component: {fileID: 1527864764}
+  - component: {fileID: 1527864770}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10303
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25834,8 +27112,48 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1527864770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527864763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_pose_5
+  - id_favor1_1
+  - id_favor3_2
+  - id_pose_4
+  - id_favor2_2
+  - id_favor3_4
+  - id_favor1_3
+  - id_normal_12
+  - id_favor1_2
+  - id_pose_1
+  - id_favor2
+  - id_normal_2
+  - id_pose_2
+  - id_favor3_1
+  - id_pose_3
+  - id_favor1
+  - id_pose_6
+  - id_favor2_3
+  - id_favor2_4
+  - id_favor3
+  - id_favor2_1
+  - id_favor3_3
+  - id_normal_4
+  - id_favor1_4
+  - id_normal_13
+  - id_normal_9
 --- !u!21 &1544792018
 Material:
   serializedVersion: 6
@@ -26250,7 +27568,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 74
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1552784517
 Material:
@@ -26452,8 +27770,9 @@ GameObject:
   - component: {fileID: 1558812280}
   - component: {fileID: 1558812279}
   - component: {fileID: 1558812278}
+  - component: {fileID: 1558812284}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10110
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26642,6 +27961,32 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1558812284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558812277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_4
+  - id_normal_9
+  - id_normal_6
+  - id_normal_5
+  - id_normal_2
+  - id_normal_10
+  - id_normal_7
+  - id_normal_8
+  - id_normal_11
+  - id_normal_12
+  - id_normal_1
+  - id_normal_3
+  - id_normal_13
 --- !u!43 &1562830772
 Mesh:
   m_ObjectHideFlags: 0
@@ -26816,8 +28161,9 @@ GameObject:
   - component: {fileID: 1572096698}
   - component: {fileID: 1572096697}
   - component: {fileID: 1572096696}
+  - component: {fileID: 1572096702}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10504
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27004,8 +28350,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1572096702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572096695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - Main_02_0021
+  - id_favor3_1
+  - id_pose_10
+  - id_pose_3
+  - Main_02_0022
+  - id_favor2_1
+  - id_pose_6
+  - id_pose_5
+  - Main_02_0024
+  - Main_02_0023
+  - id_favor2_3
+  - id_normal_12
+  - id_normal_9
+  - id_favor2
+  - Main_02_0020
+  - id_pose_4
+  - id_favor1_4
+  - id_favor3
+  - id_favor1
+  - id_favor2_4
 --- !u!43 &1572968059
 Mesh:
   m_ObjectHideFlags: 0
@@ -27368,7 +28747,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 89
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1614552120
 GameObject:
@@ -27384,8 +28763,9 @@ GameObject:
   - component: {fileID: 1614552123}
   - component: {fileID: 1614552122}
   - component: {fileID: 1614552121}
+  - component: {fileID: 1614552127}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10106
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27574,6 +28954,40 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1614552127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614552120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_pose_4
+  - id_pose_3
+  - id_pose_1
+  - id_pose_10
+  - id_pose_7
+  - id_normal_13
+  - id_pose_13
+  - id_pose_6
+  - id_normal_1
+  - id_normal_9
+  - id_pose_9
+  - id_normal_4
+  - id_normal_2
+  - id_pose_2
+  - id_pose_8
+  - id_normal_6
+  - id_normal_12
+  - id_pose_5
+  - id_pose_11
+  - id_pose_12
+  - id_pose_14
 --- !u!43 &1630452547
 Mesh:
   m_ObjectHideFlags: 0
@@ -27908,8 +29322,9 @@ GameObject:
   - component: {fileID: 1644461253}
   - component: {fileID: 1644461252}
   - component: {fileID: 1644461251}
+  - component: {fileID: 1644461257}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10204
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28098,6 +29513,46 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1644461257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644461250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_pose_3
+  - id_normal_4
+  - id_normal_13
+  - id_favor3
+  - id_normal_6
+  - id_favor1_1
+  - id_pose_4
+  - id_favor1
+  - id_favor1_4
+  - id_favor1_3
+  - id_favor3_4
+  - id_favor3_3
+  - id_favor1_2
+  - id_favor2
+  - id_favor2_3
+  - id_pose_1
+  - id_normal_2
+  - id_favor2_1
+  - id_normal_12
+  - id_normal_1
+  - id_favor3_1
+  - id_pose_5
+  - id_normal_9
+  - id_favor3_2
+  - id_favor2_4
+  - id_pose_2
+  - id_favor2_2
 --- !u!43 &1671244889
 Mesh:
   m_ObjectHideFlags: 0
@@ -28324,8 +29779,9 @@ GameObject:
   - component: {fileID: 1709314578}
   - component: {fileID: 1709314577}
   - component: {fileID: 1709314576}
+  - component: {fileID: 1709314582}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11306
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28512,8 +29968,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 69
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1709314582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709314575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_3
+  - id_normal_8
+  - id_normal_6
+  - id_normal_2
+  - id_normal_9
+  - id_normal_11
+  - id_normal_13
+  - id_normal_5
+  - id_normal_7
+  - id_normal_12
+  - id_normal_1
+  - id_normal_4
 --- !u!1 &1710016857
 GameObject:
   m_ObjectHideFlags: 0
@@ -28528,8 +30010,9 @@ GameObject:
   - component: {fileID: 1710016860}
   - component: {fileID: 1710016859}
   - component: {fileID: 1710016858}
+  - component: {fileID: 1710016864}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10403
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28716,8 +30199,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1710016864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710016857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_normal_9
+  - id_normal_2
+  - id_normal_4
+  - id_normal_5
+  - id_normal_13
+  - id_normal_3
+  - id_normal_1
+  - id_normal_12
 --- !u!43 &1711292920
 Mesh:
   m_ObjectHideFlags: 0
@@ -28892,8 +30397,9 @@ GameObject:
   - component: {fileID: 1712585511}
   - component: {fileID: 1712585510}
   - component: {fileID: 1712585509}
+  - component: {fileID: 1712585515}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11310
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29080,8 +30586,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 72
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1712585515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712585508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_3
+  - id_normal_13
+  - id_normal_9
+  - id_normal_2
+  - id_normal_7
+  - id_normal_6
+  - id_normal_5
+  - id_normal_4
+  - id_normal_11
+  - id_normal_1
+  - id_normal_8
+  - id_normal_10
+  - id_normal_12
 --- !u!1 &1713688933
 GameObject:
   m_ObjectHideFlags: 0
@@ -29096,8 +30628,9 @@ GameObject:
   - component: {fileID: 1713688936}
   - component: {fileID: 1713688935}
   - component: {fileID: 1713688934}
+  - component: {fileID: 1713688940}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10803
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29284,8 +30817,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 51
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1713688940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713688933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_8
+  - id_normal_10
+  - id_normal_4
+  - id_normal_3
+  - id_normal_11
+  - id_normal_9
+  - id_normal_5
+  - id_normal_7
+  - id_normal_1
+  - id_normal_12
+  - id_normal_2
+  - id_normal_6
 --- !u!43 &1721303640
 Mesh:
   m_ObjectHideFlags: 0
@@ -29460,8 +31019,9 @@ GameObject:
   - component: {fileID: 1722770166}
   - component: {fileID: 1722770165}
   - component: {fileID: 1722770164}
+  - component: {fileID: 1722770170}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10601
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29648,8 +31208,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 42
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722770170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722770163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_9
+  - id_normal_12
+  - id_normal_2
+  - id_normal_1
+  - id_normal_4
+  - id_normal_6
+  - id_normal_13
 --- !u!43 &1723170556
 Mesh:
   m_ObjectHideFlags: 0
@@ -30062,8 +31642,9 @@ GameObject:
   - component: {fileID: 1746091017}
   - component: {fileID: 1746091016}
   - component: {fileID: 1746091015}
+  - component: {fileID: 1746091021}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10510
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30250,8 +31831,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746091021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746091014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_12
+  - id_normal_7
+  - id_normal_3
+  - id_normal_6
+  - id_normal_11
+  - id_normal_2
+  - id_normal_9
+  - id_normal_10
+  - id_normal_5
+  - id_normal_1
+  - id_normal_8
+  - id_normal_4
 --- !u!1 &1746939706
 GameObject:
   m_ObjectHideFlags: 0
@@ -30266,8 +31873,9 @@ GameObject:
   - component: {fileID: 1746939709}
   - component: {fileID: 1746939708}
   - component: {fileID: 1746939707}
+  - component: {fileID: 1746939713}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10517
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30454,8 +32062,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746939713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746939706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_2
+  - id_normal_4
+  - id_normal_9
+  - id_normal_13
+  - id_normal_5
+  - id_normal_10
+  - id_normal_7
+  - id_normal_3
+  - id_normal_6
+  - id_normal_11
+  - id_normal_12
+  - id_normal_8
+  - id_normal_1
 --- !u!43 &1749295830
 Mesh:
   m_ObjectHideFlags: 0
@@ -30630,8 +32264,9 @@ GameObject:
   - component: {fileID: 1760594896}
   - component: {fileID: 1760594895}
   - component: {fileID: 1760594894}
+  - component: {fileID: 1760594900}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10215
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30818,8 +32453,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1760594900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760594893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_normal_9
+  - id_normal_11
+  - id_normal_3
+  - id_normal_7
+  - id_normal_5
+  - id_normal_13
+  - id_normal_14
+  - id_normal_2
+  - id_normal_4
+  - id_normal_6
+  - id_normal_1
+  - id_normal_8
 --- !u!43 &1764755734
 Mesh:
   m_ObjectHideFlags: 0
@@ -31020,8 +32681,9 @@ GameObject:
   - component: {fileID: 1766642536}
   - component: {fileID: 1766642535}
   - component: {fileID: 1766642534}
+  - component: {fileID: 1766642540}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10804
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31208,8 +32870,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 52
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1766642540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766642533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_13
+  - id_normal_1
+  - id_normal_12
+  - id_normal_9
+  - id_normal_4
+  - id_normal_2
+  - id_normal_7
+  - id_normal_5
+  - id_normal_11
+  - id_normal_3
+  - id_normal_10
+  - id_normal_8
+  - id_normal_6
 --- !u!43 &1769985938
 Mesh:
   m_ObjectHideFlags: 0
@@ -31462,8 +33150,9 @@ GameObject:
   - component: {fileID: 1797536997}
   - component: {fileID: 1797536996}
   - component: {fileID: 1797536995}
+  - component: {fileID: 1797537001}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10501
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31650,8 +33339,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1797537001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797536994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_favor2_2
+  - id_pose_10
+  - id_pose_12
+  - id_favor3
+  - id_pose_14
+  - id_favor3_3
+  - id_pose_2
+  - id_normal_9
+  - id_favor2_1
+  - id_favor3_1
+  - id_favor3_4
+  - id_send_gift
+  - id_send
+  - id_pose_8
+  - id_pose_3
+  - id_normal_6
+  - id_pose_1
+  - id_favor2_3
+  - id_normal_1
+  - id_pose_4
 --- !u!43 &1798528654
 Mesh:
   m_ObjectHideFlags: 0
@@ -32177,8 +33899,9 @@ GameObject:
   - component: {fileID: 1831711516}
   - component: {fileID: 1831711515}
   - component: {fileID: 1831711514}
+  - component: {fileID: 1831711520}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10503
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32365,8 +34088,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1831711520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831711513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_favor3_3
+  - id_normal_6
+  - id_favor1_2
+  - id_favor3_1
+  - id_pose_6
+  - id_favor2_2
+  - id_normal_1
+  - id_favor2_4
+  - id_pose_3
+  - id_favor1_4
+  - id_pose_14
+  - id_pose_11
+  - id_pose_9
+  - id_pose_8
+  - id_favor3_2
+  - id_normal_9
+  - id_favor1
+  - id_pose_10
+  - id_favor1_1
 --- !u!1 &1837285851
 GameObject:
   m_ObjectHideFlags: 0
@@ -32381,8 +34137,9 @@ GameObject:
   - component: {fileID: 1837285854}
   - component: {fileID: 1837285853}
   - component: {fileID: 1837285852}
+  - component: {fileID: 1837285858}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32569,8 +34326,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 58
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1837285858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837285851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_normal_13
+  - id_normal_4
+  - idle
+  - id_normal_5
+  - id_normal_9
+  - id_normal_1
+  - id_normal_2
+  - id_normal_12
 --- !u!1 &1838381885
 GameObject:
   m_ObjectHideFlags: 0
@@ -32585,8 +34364,9 @@ GameObject:
   - component: {fileID: 1838381888}
   - component: {fileID: 1838381887}
   - component: {fileID: 1838381886}
+  - component: {fileID: 1838381892}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 11203
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32773,8 +34553,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 64
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1838381892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838381885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_2_sikao
+  - id_normal_12_jinghuang
+  - id_normal_11_weiqu
+  - id_normal_6_kewang
+  - id_normal_13_shengqi
+  - id_normal_8_xiufen
+  - id_normal_11_shiluo
+  - id_normal_2
+  - id_normal_9_buman
+  - id_normal_4
+  - id_normal_1
+  - id_normal_10_zhiyi
+  - id_normal_7_haixiu
+  - id_normal_11
+  - id_normal_5_wuliao
+  - id_normal_5_shengqi
+  - id_normal_10
+  - id_normal_8
+  - id_normal_9_haixiu
+  - id_normal_7_niunie
 --- !u!1 &1841761444
 GameObject:
   m_ObjectHideFlags: 0
@@ -33095,7 +34908,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 55
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1860971208
 GameObject:
@@ -33111,8 +34924,9 @@ GameObject:
   - component: {fileID: 1860971211}
   - component: {fileID: 1860971210}
   - component: {fileID: 1860971209}
+  - component: {fileID: 1860971215}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10602
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33299,8 +35113,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 43
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860971215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860971208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_1
+  - id_normal4
+  - id_normal_9
+  - id_normal_6
+  - id_normal_13
+  - id_normal_2
+  - id_normal_12
 --- !u!43 &1866405692
 Mesh:
   m_ObjectHideFlags: 0
@@ -34143,7 +35977,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 83
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1915281937
 Mesh:
@@ -34479,8 +36313,9 @@ GameObject:
   - component: {fileID: 1926239320}
   - component: {fileID: 1926239319}
   - component: {fileID: 1926239318}
+  - component: {fileID: 1926239324}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10806
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34667,8 +36502,39 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 54
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1926239324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926239317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_4
+  - nor13
+  - id_normal_11
+  - nor11
+  - id_normal_9
+  - nor3
+  - id_normal_3
+  - nor9
+  - id_normal_8
+  - id_normal_5
+  - id_normal_2
+  - id_normal_13
+  - id_normal_7
+  - id_normal_1
+  - id_normal_12
+  - id_normal_10
+  - nor10
+  - id_normal_6
 --- !u!1 &1929973783
 GameObject:
   m_ObjectHideFlags: 0
@@ -34683,8 +36549,9 @@ GameObject:
   - component: {fileID: 1929973786}
   - component: {fileID: 1929973785}
   - component: {fileID: 1929973784}
+  - component: {fileID: 1929973790}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10706
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34871,8 +36738,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 49
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1929973790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929973783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_2
+  - id_normal_12
+  - id_normal_3
+  - id_normal_4
+  - id_normal_1
+  - id_normal_6
+  - id_normal_11
+  - id_normal_10
+  - id_normal_13
+  - id_normal_8
+  - id_normal_7
+  - id_normal_5
+  - id_normal_9
 --- !u!1 &1931584423
 GameObject:
   m_ObjectHideFlags: 0
@@ -34887,8 +36780,9 @@ GameObject:
   - component: {fileID: 1931584426}
   - component: {fileID: 1931584425}
   - component: {fileID: 1931584424}
+  - component: {fileID: 1931584430}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10903
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35075,8 +36969,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 57
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1931584430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931584423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_10
+  - id_normal_1
+  - id_normal_3
+  - id_normal_9
+  - id_normal_8
+  - id_normal_4
+  - id_normal_13
+  - id_normal_12
+  - id_normal_7
+  - id_normal_11
+  - id_normal_5
+  - id_normal_6
+  - id_normal_2
 --- !u!1 &1933086630
 GameObject:
   m_ObjectHideFlags: 0
@@ -35091,8 +37011,9 @@ GameObject:
   - component: {fileID: 1933086633}
   - component: {fileID: 1933086632}
   - component: {fileID: 1933086631}
+  - component: {fileID: 1933086637}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35281,6 +37202,31 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1933086637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933086630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_1
+  - id_normal_10
+  - id_normal_5
+  - id_normal_3
+  - id_normal_4
+  - id_normal_7
+  - id_normal_2
+  - id_normal_8
+  - id_normal_9
+  - id_normal_11
+  - id_normal_6
+  - id_normal_13
 --- !u!1 &1942417865
 GameObject:
   m_ObjectHideFlags: 0
@@ -35484,7 +37430,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1942417872
 MonoBehaviour:
@@ -35515,8 +37461,6 @@ MonoBehaviour:
   - Main_03_0122
   - Main_03_0128
   - Main_03_0119
-  idleMotion: normal
-  idleExpression: 
 --- !u!43 &1956403589
 Mesh:
   m_ObjectHideFlags: 0
@@ -35717,8 +37661,9 @@ GameObject:
   - component: {fileID: 1971856164}
   - component: {fileID: 1971856163}
   - component: {fileID: 1971856162}
+  - component: {fileID: 1971856168}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10505
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35905,8 +37850,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971856168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971856161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_favor3_3
+  - id_pose_10
+  - id_pose_12
+  - id_favor3
+  - id_pose_14
+  - id_favor2_2
+  - id_pose_2
+  - id_normal_9
+  - id_favor2_1
+  - id_favor3_1
+  - id_favor3_4
+  - id_send_gift
+  - id_send
+  - id_pose_8
+  - id_pose_3
+  - id_normal_6
+  - id_pose_1
+  - id_favor2_3
+  - id_normal_1
+  - id_pose_4
 --- !u!21 &1972585984
 Material:
   serializedVersion: 6
@@ -36213,7 +38191,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 87
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1992011697
 Material:
@@ -36255,8 +38233,9 @@ GameObject:
   - component: {fileID: 1993470778}
   - component: {fileID: 1993470777}
   - component: {fileID: 1993470776}
+  - component: {fileID: 1993470782}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10203
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36445,6 +38424,43 @@ Transform:
   m_Father: {fileID: 1094673178}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1993470782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993470775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - Main_02_0082
+  - id_normal_2
+  - Main_02_0073
+  - id_normal_13
+  - Main_02_0074
+  - id_pose_5
+  - id_pose_2
+  - Main_02_0077
+  - id_normal_12
+  - Main_02_0080
+  - Main_02_0081
+  - Main_02_0083
+  - id_normal_4
+  - Main_02_0079
+  - id_normal_1
+  - Main_02_0078
+  - id_normal_6
+  - Main_02_0076
+  - id_pose_1
+  - id_pose_3
+  - id_pose_4
+  - Main_02_0075
+  - id_normal_9
+  - Main_02_0084
 --- !u!43 &1993843657
 Mesh:
   m_ObjectHideFlags: 0
@@ -36831,8 +38847,9 @@ GameObject:
   - component: {fileID: 2013996047}
   - component: {fileID: 2013996046}
   - component: {fileID: 2013996045}
+  - component: {fileID: 2013996051}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10308
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37019,8 +39036,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013996051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013996044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_8
+  - id_normal_12
+  - id_normal_13
+  - id_normal_9
+  - id_normal_2
+  - id_normal_11
+  - id_normal_4
+  - id_normal_3
+  - id_normal_1
+  - id_normal_5
+  - id_normal_6
+  - id_normal_10
+  - id_normal_7
 --- !u!1 &2053181660
 GameObject:
   m_ObjectHideFlags: 0
@@ -37035,8 +39078,9 @@ GameObject:
   - component: {fileID: 2053181663}
   - component: {fileID: 2053181662}
   - component: {fileID: 2053181661}
+  - component: {fileID: 2053181667}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10212
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37223,8 +39267,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053181667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053181660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_6
+  - id_normal_8
+  - id_normal_13
+  - id_normal_9
+  - id_normal_11
+  - id_normal_3
+  - id_normal_10
+  - id_normal_7
+  - id_normal_5
+  - id_normal_2
+  - id_normal_12
+  - id_normal_4
+  - id_normal_1
 --- !u!43 &2057074168
 Mesh:
   m_ObjectHideFlags: 0
@@ -37425,8 +39495,9 @@ GameObject:
   - component: {fileID: 2075398535}
   - component: {fileID: 2075398534}
   - component: {fileID: 2075398533}
+  - component: {fileID: 2075398539}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10703
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37613,8 +39684,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 46
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2075398539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075398532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_12
+  - id_normal_2
+  - id_normal_6
+  - id_normal_4
+  - id_normal_13
+  - id_normal_1
+  - id_normal_9
 --- !u!1 &2076630909
 GameObject:
   m_ObjectHideFlags: 0
@@ -37817,7 +39908,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 90
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2081573191
 GameObject:
@@ -37833,8 +39924,9 @@ GameObject:
   - component: {fileID: 2081573194}
   - component: {fileID: 2081573193}
   - component: {fileID: 2081573192}
+  - component: {fileID: 2081573198}
   m_Layer: 0
-  m_Name: Live2D_Canvas
+  m_Name: 10411
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38021,8 +40113,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1094673178}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2081573198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081573191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529886cc32810634390b28f932ba5650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motionNames:
+  - id_normal_2
+  - id_normal_5
+  - id_normal_4
+  - id_normal_6
+  - id_normal_10
+  - id_normal_8
+  - id_normal_9
+  - id_normal_11
+  - id_normal_3
+  - id_normal_13
+  - id_normal_12
+  - id_normal_1
+  - id_normal_7
 --- !u!21 &2093036558
 Material:
   serializedVersion: 6
