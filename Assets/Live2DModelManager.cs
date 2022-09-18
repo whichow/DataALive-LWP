@@ -5,44 +5,47 @@ using UnityEngine;
 public class Live2DModelManager : MonoBehaviour
 {
     public GameObject[] models;
-    public bool random;
 
     private int index;
 
     void Start()
     {
         models[index].SetActive(true);
-        if(random)
-        {
-            SwitchModel();
-        }
     }
 
-    public void SwitchModel()
+    public void SwitchNext()
     {
         models[index].SetActive(false);
-        if(random)
-        {
-            index = Random.Range(0, models.Length);
-        }
-        else
-        {
-            if(++index >= models.Length)
-                index = 0;
-        }
+        if (++index >= models.Length)
+            index = 0;
+        models[index].SetActive(true);
+    }
+
+    public void SwitchPrevious()
+    {
+        models[index].SetActive(false);
+        if (--index < 0)
+            index = models.Length - 1;
+        models[index].SetActive(true);
+    }
+
+    public void SwitchRandom()
+    {
+        models[index].SetActive(false);
+        index = Random.Range(0, models.Length);
         models[index].SetActive(true);
     }
 
     IEnumerator ShowModels()
     {
         int i = 0;
-        while(true)
+        while (true)
         {
-            if(i == models.Length)
+            if (i == models.Length)
             {
                 break;
             }
-            if(i > 0)
+            if (i > 0)
             {
                 models[i - 1].SetActive(false);
             }
