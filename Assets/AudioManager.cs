@@ -11,20 +11,23 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
+        index = PlayerPrefs.GetInt("Music", 0);
         source = GetComponent<AudioSource>();
+        source.clip = clips[index];
+        source.Play();
     }
 
-    public void EnableVolume(bool enable)
-    {
-        if(enable)
-        {
-            AudioListener.volume = 1;
-        }
-        else
-        {
-            AudioListener.volume = 0;
-        }
-    }
+    // public void EnableVolume(bool enable)
+    // {
+    //     if(enable)
+    //     {
+    //         AudioListener.volume = 1;
+    //     }
+    //     else
+    //     {
+    //         AudioListener.volume = 0;
+    //     }
+    // }
 
     public void EnableMusic(bool enable)
     {
@@ -44,5 +47,6 @@ public class AudioManager : MonoBehaviour
             index = 0;
         source.clip = clips[index];
         source.Play();
+        PlayerPrefs.SetInt("Music", index);
     }
 }

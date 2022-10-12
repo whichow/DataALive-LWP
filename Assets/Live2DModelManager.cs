@@ -10,6 +10,7 @@ public class Live2DModelManager : MonoBehaviour
 
     void Start()
     {
+        index = PlayerPrefs.GetInt("Model", 0);
         models[index].SetActive(true);
     }
 
@@ -19,6 +20,7 @@ public class Live2DModelManager : MonoBehaviour
         if (++index >= models.Length)
             index = 0;
         models[index].SetActive(true);
+        PlayerPrefs.SetInt("Model", index);
     }
 
     public void SwitchPrevious()
@@ -27,6 +29,7 @@ public class Live2DModelManager : MonoBehaviour
         if (--index < 0)
             index = models.Length - 1;
         models[index].SetActive(true);
+        PlayerPrefs.SetInt("Model", index);
     }
 
     public void SwitchRandom()
@@ -52,6 +55,14 @@ public class Live2DModelManager : MonoBehaviour
             models[i].SetActive(true);
             i++;
             yield return new WaitForSeconds(3f);
+        }
+    }
+
+    public void EnableVoice(bool enable)
+    {
+        foreach (var model in models)
+        {
+            model.GetComponent<AudioSource>().mute = !enable;
         }
     }
 }

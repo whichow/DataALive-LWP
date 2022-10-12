@@ -12,6 +12,7 @@ public class BackgroundManager : MonoBehaviour
 
     void Start()
     {
+        index = PlayerPrefs.GetInt("Background", 0);
         backgrounds[index].SetActive(true);
         if(random)
         {
@@ -32,5 +33,6 @@ public class BackgroundManager : MonoBehaviour
                 index = 0;
         }
         backgrounds[index].SetActive(true);
+        PlayerPrefs.SetInt("Background", index);
     }
 }

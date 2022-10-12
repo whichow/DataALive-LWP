@@ -5,16 +5,21 @@ using UnityEngine;
 public class Live2DModel : MonoBehaviour
 {
     public string[] motionNames;
+    public bool useIndex;
+    public int index;
     private LAppModel model;
 
     private float mouseDownTime;
     private Vector3 mousePos;
+    private Live2DAudio l2dAudio;
 
     // Start is called before the first frame update
     void Start()
     {
         LAppModelProxy proxy = GetComponent<LAppModelProxy>();
         model = proxy.GetModel();
+
+        l2dAudio = GetComponent<Live2DAudio>();
     }
 
     void OnMouseDown()
@@ -39,10 +44,17 @@ public class Live2DModel : MonoBehaviour
         Debug.Log("On mouse click");
         if(model.IsFinished())
         {
-            int index = Random.Range(0, motionNames.Length);
+            if(!useIndex)
+            {
+                index = Random.Range(0, motionNames.Length);
+            }
             string motionName = motionNames[index];
             model.StartRandomMotion(motionName, 1);
-            model.SetRandomExpression();
+            // model.SetRandomExpression();
+            if(l2dAudio != null)
+            {
+                l2dAudio.PlayAudio(index);
+            }
         }
     }
 }
